@@ -114,3 +114,11 @@ p.intro {
 .flex-wrap {
 	flex-wrap: wrap;
 }
+
+.flex-nested .row-flex {
+	flex: 0 1 49%;
+}
+
+.flex-nested .flex-col {
+	height: auto;
+}
