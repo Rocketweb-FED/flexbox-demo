@@ -1,0 +1,116 @@
+body {
+	margin: 0;
+	font-family: 'Karla', sans-serif;
+	background: #f2e8ee;
+}
+
+a, h1, p {
+	color: #464646;     
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+header{
+	width: 100vw;
+	top: 0;
+	left: auto;
+}
+
+h1 {
+	width: 100vw;
+	padding: 8rem 0;
+	margin: 0;
+	font-size: 100px;
+	letter-spacing: -0.03em;
+	position: relative;
+	font-weight: normal;
+}
+
+h1 span {
+	display: inline-block;
+	text-align: center;
+	transition: margin 1s ease-in-out;
+	font-family: 'Libre Baskerville', serif;
+	width: 100vw;
+	top: 80px;
+	font-style: italic;
+}
+
+section {
+	width: 60vw;
+	margin: 50px auto;
+	display: block;
+}
+
+p.intro {
+	font-size: 25px;
+	font-family: 'Libre Baskerville', serif;
+}
+
+.box {
+	padding: 15px;
+	background-color: honeydew;
+	box-sizing: border-box;
+}
+
+.first-letter::first-letter {
+	font-size: 200%;
+}
+
+/* Flexbox */
+.row-flex {
+	flex: 0 1 32%;
+}
+
+.row-flex-narrow {
+	width: 200px;
+	flex: 0 1 auto;
+}
+
+.flex-var .row-flex {
+	flex: 1;
+}
+
+.flex-var .row-flex-2x {
+	flex: 2;
+	margin: 0 1%;
+}
+
+.flex-start {
+	align-items: flex-start;
+}
+
+.flex-end {
+	align-items: flex-end;
+}
+
+.flex-center {
+	align-items: center;
+}
+
+.flex-baseline {
+	align-items: baseline;
+}
+
+.col-flex:last-child {
+	order: -1;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+	background-color: pink;
+	// align-items: flex-start;
+}
+
+.flex-col {
+	flex-direction: column;
+	height: 300px;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
